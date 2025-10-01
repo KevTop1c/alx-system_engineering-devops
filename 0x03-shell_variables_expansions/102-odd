@@ -1,2 +1,2 @@
 #!/bin/bash
-read line; printf "$line\n"; while read line; do read line; printf "$line\n"; done
+paste - - | cut -f1
